@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    width: 20vw;
+    background-color: rgb(17, 206, 143);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+
+}
+.menu{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.item{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: cursive;
+}
+main{
+    background-color: beige;
+    width: 80vw;
+    height: 2500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
